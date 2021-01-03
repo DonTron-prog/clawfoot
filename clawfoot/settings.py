@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+-=qflcs4swdb%3+ci4w)tx_!#skqghq37%neeuitp$gsp_wv)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.clawfootrepair.ca', '138.197.155.137', 'localhost']
+ALLOWED_HOSTS = ['.clawfootrepair.ca', '138.197.155.137', '127.0.0.1']
 
 
 # Application definition
