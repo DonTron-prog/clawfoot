@@ -24,9 +24,9 @@ with open(BASE_DIR.parent.parent / 'claw_secretkey') as f:
     SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.clawfootrepair.ca', '138.197.155.137', 'localhost']
+ALLOWED_HOSTS = ['.clawfootrepair.ca', '138.197.155.137', '127.0.0.1']
 
 
 # Application definition
